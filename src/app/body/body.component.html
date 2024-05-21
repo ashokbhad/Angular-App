@@ -1,0 +1,16 @@
+<!-- <p>body works!</p> -->
+
+<div class="text-center  container mt-5">
+    <h1>Welcome to my "ng" Application</h1>
+    <p><b>This is the body of the Application</b></p>
+    <p>My first name is {{firstName}}</p>
+
+    <p>The current time is: {{currentTime()}}</p>
+    <p>Hello, {{user.firstName}} {{user.lastName}} {{user.Id}}</p>
+
+    <img [src]="imageUrl" alt="" width="200" height="200">
+    <button [disabled]="isDisabled">Click me</button>
+    <input type="text" [value]="inputValue">
+
+    <button class="btn btn-primary" (click)="buttonClicked()">Save</button>
+</div>
